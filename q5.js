@@ -1,10 +1,11 @@
-var arr1=[1,2,3];
-var arr2=[4,5,6,];
- var arr3=arr2[Symbol.iterator]();
- arr2.map(x=>{
- arr1=[...arr1,arr3.next().value];
 
-})
-console.log(arr1);
+let a=[1,2];
+let b=[3,4];
+let c=b[Symbol.iterator]();
+let arr4 = a.map(x=> {
+    a=[...a,c.next().value]
+   
+ })
+ console.log(a);
 
 
