@@ -7,5 +7,6 @@ let arr4 = a.map(x=> {
    
  })
  console.log(a);
+;
 
 
